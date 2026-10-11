@@ -3,6 +3,10 @@
 
 An educational React application featuring a product catalog, search functionality, and interactive shopping cart. Developed during my Full Stack Web Development training at **Kenzie Academy Brasil**.
 
+## Current demo status (11 October 2026)
+
+In a manual visit to the hosted page at [hamburgueria-kenzie-pink.vercel.app](https://hamburgueria-kenzie-pink.vercel.app/), the interface loaded but no products appeared and the shopping cart was empty. The hosted page is **not a working shopping-cart demo** in this observed state. The cause has not been confirmed.
+
 ## Overview
 
 KenzieBurguer simulates a restaurant ordering interface where users can browse products, search the menu, and manage items in a shopping cart.
@@ -48,7 +52,7 @@ The original API endpoint is:
 
 `https://hamburgueria-kenzie-json-serve.herokuapp.com/products`
 
-**Important:** The current availability of this external API has not been verified. Product loading may require updating the API endpoint.
+**Important:** The product API's current availability has not been verified independently. The empty catalog seen on 11 October 2026 may relate to this legacy integration, but no root cause has been established or code fix attempted.
 
 ## Technical Highlights
 
